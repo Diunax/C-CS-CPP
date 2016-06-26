@@ -1,0 +1,4 @@
+﻿  ZOJ2451-Minimizing maximizer.cpp
+d:\projects\c++\zoj2451-minimizing maximizer\zoj2451-minimizing maximizer\zoj2451-minimizing maximizer.cpp(82): warning C4101: “c”: 未引用的局部变量
+d:\projects\c++\zoj2451-minimizing maximizer\zoj2451-minimizing maximizer\zoj2451-minimizing maximizer.cpp(79): warning C4715: “search”: 不是所有的控件路径都返回值
+  ZOJ2451-Minimizing maximizer.vcxproj -> D:\projects\c++\ZOJ2451-Minimizing maximizer\x64\Debug\ZOJ2451-Minimizing maximizer.exe

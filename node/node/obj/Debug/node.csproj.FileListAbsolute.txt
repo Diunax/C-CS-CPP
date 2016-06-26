@@ -1,0 +1,29 @@
+c:\users\ruiming\documents\visual studio 2015\Projects\node\node\bin\Debug\node.exe.config
+c:\users\ruiming\documents\visual studio 2015\Projects\node\node\bin\Debug\node.exe
+c:\users\ruiming\documents\visual studio 2015\Projects\node\node\bin\Debug\node.pdb
+c:\users\ruiming\documents\visual studio 2015\Projects\node\node\obj\Debug\node.Form1.resources
+c:\users\ruiming\documents\visual studio 2015\Projects\node\node\obj\Debug\node.Properties.Resources.resources
+c:\users\ruiming\documents\visual studio 2015\Projects\node\node\obj\Debug\node.csproj.GenerateResource.Cache
+c:\users\ruiming\documents\visual studio 2015\Projects\node\node\obj\Debug\node.exe
+c:\users\ruiming\documents\visual studio 2015\Projects\node\node\obj\Debug\node.pdb
+C:\Users\ruiming\Documents\Visual Studio 2015\Projects\node\node\obj\Debug\node.Form2.resources
+C:\Users\ruiming\Documents\Visual Studio 2015\Projects\node\node\obj\Debug\node.Form3.resources
+C:\Users\ruiming\Documents\Visual Studio 2015\Projects\node\node\obj\Debug\node.Form4.resources
+C:\Users\ruiming\Documents\Visual Studio 2015\Projects\node\node\obj\Debug\node.Form5.resources
+C:\Users\ruiming\Documents\Visual Studio 2015\Projects\node\node\obj\Debug\node.csprojResolveAssemblyReference.cache
+F:\tsin\Projects\node\node\bin\Debug\node.exe.config
+F:\tsin\Projects\node\node\obj\Debug\node.exe
+F:\tsin\Projects\node\node\obj\Debug\node.pdb
+D:\projects\c++\Other\node\node\bin\Debug\node.exe.config
+D:\projects\c++\Other\node\node\obj\Debug\node.exe
+D:\projects\c++\Other\node\node\obj\Debug\node.pdb
+D:\projects\c++\Other\node\node\bin\Debug\node.exe
+D:\projects\c++\Other\node\node\bin\Debug\node.pdb
+D:\projects\c++\Other\node\node\obj\Debug\node.csprojResolveAssemblyReference.cache
+D:\projects\c++\Other\node\node\obj\Debug\node.Form2.resources
+D:\projects\c++\Other\node\node\obj\Debug\node.Form1.resources
+D:\projects\c++\Other\node\node\obj\Debug\node.Form3.resources
+D:\projects\c++\Other\node\node\obj\Debug\node.Form4.resources
+D:\projects\c++\Other\node\node\obj\Debug\node.Form5.resources
+D:\projects\c++\Other\node\node\obj\Debug\node.Properties.Resources.resources
+D:\projects\c++\Other\node\node\obj\Debug\node.csproj.GenerateResource.Cache

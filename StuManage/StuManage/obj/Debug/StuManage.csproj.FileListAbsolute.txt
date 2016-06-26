@@ -1,0 +1,24 @@
+c:\users\ruiming\documents\visual studio 2015\Projects\StuManage\StuManage\bin\Debug\StuManage.exe.config
+c:\users\ruiming\documents\visual studio 2015\Projects\StuManage\StuManage\bin\Debug\StuManage.exe
+c:\users\ruiming\documents\visual studio 2015\Projects\StuManage\StuManage\bin\Debug\StuManage.pdb
+c:\users\ruiming\documents\visual studio 2015\Projects\StuManage\StuManage\obj\Debug\StuManage.csprojResolveAssemblyReference.cache
+c:\users\ruiming\documents\visual studio 2015\Projects\StuManage\StuManage\obj\Debug\StuManage.Form1.resources
+c:\users\ruiming\documents\visual studio 2015\Projects\StuManage\StuManage\obj\Debug\StuManage.Properties.Resources.resources
+c:\users\ruiming\documents\visual studio 2015\Projects\StuManage\StuManage\obj\Debug\StuManage.csproj.GenerateResource.Cache
+c:\users\ruiming\documents\visual studio 2015\Projects\StuManage\StuManage\obj\Debug\StuManage.exe
+c:\users\ruiming\documents\visual studio 2015\Projects\StuManage\StuManage\obj\Debug\StuManage.pdb
+c:\users\ruiming\documents\visual studio 2015\Projects\StuManage\StuManage\obj\Debug\StuManage.Form2.resources
+C:\Users\ruiming\Documents\Visual Studio 2015\Projects\StuManage\StuManage\obj\Debug\StuManage.Form3.resources
+C:\Users\ruiming\Documents\Visual Studio 2015\Projects\StuManage\StuManage\obj\Debug\StuManage.Form4.resources
+C:\Users\tsin\Desktop\Projects\StuManage\StuManage\bin\Debug\StuManage.exe.config
+C:\Users\tsin\Desktop\Projects\StuManage\StuManage\obj\Debug\StuManage.exe
+C:\Users\tsin\Desktop\Projects\StuManage\StuManage\obj\Debug\StuManage.pdb
+C:\Users\tsin\Desktop\Projects\StuManage\StuManage\bin\Debug\StuManage.exe
+C:\Users\tsin\Desktop\Projects\StuManage\StuManage\bin\Debug\StuManage.pdb
+C:\Users\tsin\Desktop\Projects\StuManage\StuManage\obj\Debug\StuManage.csprojResolveAssemblyReference.cache
+C:\Users\tsin\Desktop\Projects\StuManage\StuManage\obj\Debug\StuManage.Form1.resources
+C:\Users\tsin\Desktop\Projects\StuManage\StuManage\obj\Debug\StuManage.Form2.resources
+C:\Users\tsin\Desktop\Projects\StuManage\StuManage\obj\Debug\StuManage.Form3.resources
+C:\Users\tsin\Desktop\Projects\StuManage\StuManage\obj\Debug\StuManage.Form4.resources
+C:\Users\tsin\Desktop\Projects\StuManage\StuManage\obj\Debug\StuManage.Properties.Resources.resources
+C:\Users\tsin\Desktop\Projects\StuManage\StuManage\obj\Debug\StuManage.csproj.GenerateResource.Cache

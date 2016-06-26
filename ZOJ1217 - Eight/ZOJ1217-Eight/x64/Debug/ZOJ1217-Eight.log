@@ -1,0 +1,6 @@
+﻿  stdafx.cpp
+  ZOJ1217-Eight.cpp
+d:\projects\c++\zoj1217-eight\zoj1217-eight\zoj1217-eight.cpp(34): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据
+d:\projects\c++\zoj1217-eight\zoj1217-eight\zoj1217-eight.cpp(35): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据
+d:\projects\c++\zoj1217-eight\zoj1217-eight\zoj1217-eight.cpp(47): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据
+  ZOJ1217-Eight.vcxproj -> D:\projects\c++\ZOJ1217-Eight\x64\Debug\ZOJ1217-Eight.exe

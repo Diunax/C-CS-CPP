@@ -1,0 +1,4 @@
+﻿  stdafx.cpp
+  ZOJ2193-Window Pains.cpp
+d:\projects\c++\zoj2193 - window pains\zoj2193-window pains\zoj2193-window pains.cpp(62): warning C4715: “check”: 不是所有的控件路径都返回值
+  ZOJ2193-Window Pains.vcxproj -> D:\projects\c++\ZOJ2193 - Window Pains\x64\Debug\ZOJ2193-Window Pains.exe
