@@ -39,7 +39,7 @@ bool bellmanford(int x)
 int main()
 {
 	while (cin >> n >> m) {					// 军营数n
-		int a, b, c, temp;
+		int a, b, c, number;
 		memset(sd, 0, sizeof(sd));
 		l = 0;
 		// (1) - (0) <= C1
@@ -47,9 +47,9 @@ int main()
 		// (2) - (1) <= C2
 		// (1) - (2) <= 0
 		for (int i = 1; i <= n; i++) {
-			cin >> temp;
+			cin >> number;
 			e[l++] = Edge(i, i - 1, 0);			// (i-1) - (i) <=0
-			e[l++] = Edge(i - 1, i, temp);		// (i) - (i-1) <= temp
+			e[l++] = Edge(i - 1, i, number);		// (i) - (i-1) <= temp
 		}
 		for (int i = 1; i <= m; i++) {
 			cin >> a >> b >> c;
@@ -57,7 +57,7 @@ int main()
 		}
 		// 计算(n) - (0) >= ? 即 (0) - (n) <= -?, 所以bellmanford(n)后输出-d[0]
 		if (!bellmanford(n))	cout << "Bad Estimtions" << endl;
-		else  cout << -d[0] << endl;			// todo 为什么是0？
+		else  cout << -d[0] << endl;
 	}
     return 0;
 }
