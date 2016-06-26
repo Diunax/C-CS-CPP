@@ -1,6 +1,6 @@
 ## ZOJ2812 - Quicksum
 
-### 题目信息
+## 题目
 
 A checksum is an algorithm that scans a packet of data and returns a single number. The idea is that if the packet is changed, the checksum will also change, so checksums are often used for detecting transmission errors, validating document contents, and in many other situations where it is necessary to detect undesirable changes in data.
 

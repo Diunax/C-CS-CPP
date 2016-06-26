@@ -1,6 +1,6 @@
-## ZOJ2812 - Quicksum
+## ZOJ2770 - Burn the Linked Camp
 
-### 题目信息
+## 题目
 
 It is well known that, in the period of The Three Empires, Liu Bei, the emperor of the Shu Empire, was defeated by Lu Xun, a general of the Wu Empire. The defeat was due to Liu Bei's wrong decision that he divided his large troops into a number of camps, each of which had a group of armies, and located them in a line. This was the so-called "Linked Camps".
 
@@ -41,7 +41,7 @@ Bad Estimations
 
 
 
-## 题目分析
+## 分析
 
 这道题的意思是刘备的军队分为了n个阵营，每个阵营的最大士兵容量为`Ci`。陆逊通过观察发现得出了几组数据，就是从阵营`from`到阵营`to`之间的士兵最少数量。陆逊这时候必须估计刘备有多少士兵，如果无法估计，输出`Bad Estimations`。
 
@@ -103,6 +103,8 @@ Bad Estimations
 如上，最后得到d[0] = -1300，所以结果为1300。
 
 第i次循环表示走i次到达n点的最小权值。
+
+
 
 ---
 
