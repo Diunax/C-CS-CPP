@@ -49,7 +49,7 @@ Bad Estimations
 
 此题应该使用`差分约束系统`来解决。
 
->求解差分约束系统，可以转化成[图论](https://zh.wikipedia.org/wiki/%E5%9C%96%E8%AB%96)的单源最短[路径](https://zh.wikipedia.org/wiki/%E8%B7%AF%E5%BE%91)问题。观察xj-xi<=bk，会发现它类似最短路中的三角不等式d[v] <=d[u]+w[u,v]，即d[v]-d[u]<=w[u,v]。因此，以每个变数xi为结点，对于约束条件xj-xi<=bk，连接一条边（i,j），边权为bk。再增加一个[原点](https://zh.wikipedia.org/wiki/%E5%8E%9F%E9%BB%9E)（s,s）与所有[定点](https://zh.wikipedia.org/w/index.php?title=%E5%AE%9A%E9%BB%9E&action=edit&redlink=1)相连，[边权](https://zh.wikipedia.org/w/index.php?title=%E9%82%8A%E6%AC%8A&action=edit&redlink=1)均为0。对这个图以s为原点运行[Bellman-ford算法](https://zh.wikipedia.org/wiki/Bellman-ford%E7%AE%97%E6%B3%95)（或[SPFA算法](https://zh.wikipedia.org/wiki/SPFA%E7%AE%97%E6%B3%95)），最终{d[i]}即为一组可行解。
+>求解差分约束系统，可以转化成图论的单源最短路径问题。观察xj-xi<=bk，会发现它类似最短路中的三角不等式d[v] <=d[u]+w[u,v]，即d[v]-d[u]<=w[u,v]。因此，以每个变数xi为结点，对于约束条件xj-xi<=bk，连接一条边（i,j），边权为bk。再增加一个原点（s,s）与所有定点相连，边权均为0。对这个图以s为原点运行Bellman-ford算法（或SPFA算法），最终{d[i]}即为一组可行解。
 >
 
 解决这道题要首先找出差分方程组，对这道题来说，我们可以建立以下约束方程

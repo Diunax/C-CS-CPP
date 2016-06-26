@@ -43,13 +43,17 @@ For each test case, print in one line the length of the shortest subsequence of 
 4
 ```
 
+
+
 ## 知识点
 
 `线段树`, `点线段树`
 
+
+
 ## 分析
 
-
+​	todo
 
 
 
