@@ -4,55 +4,40 @@
 
 Boudreaux likes to multitask, especially when it comes to using his computer. Never satisfied with just running one application at a time, he usually runs nine applications, each in its own window. Due to limited screen real estate, he overlaps these windows and brings whatever window he currently needs to work with to the foreground. If his screen were a 4 x 4 grid of squares, each of Boudreaux's windows would be represented by the following 2 x 2 windows:
 
-1 1  . .                                                    . 2 2 .                                                  .  . 3 3
+```c
+1  1  .  .           .  2  2  .         .  . 3  3
+1  1  .  .           .  2  2  .         .  . 3  3
+.  .  .  .           .  .  .  .         .  .  .  .
+.  .  .  .			 .  .  .  .		    .  .  .  . 
 
-1 1 .  .                                                    . 2 2 .                                                  .  . 3 3
+.  .  .  .           .  .  .  .         .  .  .  .
+4  4  .  .           .  5  5  .         .  6  6  .
+4  4  .  .           .  5  5  .         .  6  6  .
+.  .  .  .			 .  .  .  .			.  .  .  . 
 
-.  .  .  .                                                    .  .  .  .                                                  .  .  .  .
-
-.  .  .  .						      .  .  .  .						  .  .  .  . 
-
-
-
-.  .  .  .                                                    .  .  .  .                                                   .  .  .  .
-
-4 4 .  .                                                   .  5 5  .                                                  .  6  6  .
-
-4 4 .  .                                                   .  5 5  .                                                  .  6  6  .
-
-.  .  .  .						     .   .   .  .						   .   .   .   . 
-
-
-
-.   .   .  .                                                 .   .   .   .                                                .   .   .   .
-
-.   .   .  .                                                 .   .   .   .                                                .   .   .   .
-
-7 7  .   .                                                .  8  8   .                                                .   .  9   9
-
-7 7  .   .						    .   8  8   .						  .   .  9   9
-
-
+.  .  .  .           .  .  .  .         .  .  .  .
+.  .  .  .           .  .  .  .         .  .  .  .
+7  7  .  .           .  8  8  .         .  .  9  9
+7  7  .  .			 .  8  8  .		    .  .  9  9
+```
 
 When Boudreaux brings a window to the foreground, all of its squares come to the top, overlapping any squares it shares with other windows. For example, if window 1 *and then* window 2 were brought to the foreground, the resulting representation would be:
 
-1 2 2 . 
-
-1 2 2  . 
-
+```c
+1  2  2  . 
+1  2  2  . 
 .  .  .  . 
-
 .  .  .  .
+```
 
 If window 4 were then brought to the foreground:
 
-1 2 2 . 
-
-4 4 2  . 
-
-4 4  .  . 
-
+```c
+1  2  2  . 
+4  4  2  . 
+4  4  .  . 
 .  .  .  .
+```
 
 . . . and so on . . .
 
@@ -114,9 +99,13 @@ ENDOFINPUT
 THESE WINDOWS ARE CLEAN
 THESE WINDOWS ARE BROKEN
 
+
+
 ## 知识点
 
 `拓扑排序`, `AOV`
+
+
 
 ## 分析
 
