@@ -22,9 +22,9 @@ void buildG() {			// 构造有向图
 				int from = a[i][j],
 					to = cover[i][j][p] - '0';
 				// [i][j]到所有[i][j]可能覆盖点，建立邻接矩阵
-				if (G[from][to] == 0 && from != to) {
+				if (G[from][to] == 0 && from != to && exist[from] && exist[to]) {
 					G[from][to] = 1;
-					indegree[to] ++;
+					indegree[from] ++;
 				}
 			}
 		}
@@ -57,7 +57,7 @@ bool check() {			// 判断是否有环，无环返回true，有环返回false
 		}
 		exist[k] = false;
 		for (int j = 1; j <= 9; j++)
-			if (exist[j] && G[k][j])
+			if (exist[j] && G[j][k])
 				// 删除相应顶点入边(入度减1)  
 				indegree[j]--;
 	}
