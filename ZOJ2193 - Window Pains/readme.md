@@ -56,8 +56,7 @@ A single data set has 3 components:
 After the last data set, there will be a single line:
 
 ```
-   ENDOFINPUT
-
+ENDOFINPUT
 ```
 
 Note that each piece of visible window will appear only in screen areas where the window could appear when brought to the front. For instance, a 1 can only appear in the top left quadrant.
@@ -67,15 +66,13 @@ Note that each piece of visible window will appear only in screen areas where th
 For each data set, there will be exactly one line of output. If there exists a sequence of bringing windows to the foreground that would result in the graphical representation of the windows on Boudreaux's screen, the output will be a single line with the statement:
 
 ```
-   THESE WINDOWS ARE CLEAN
-
+THESE WINDOWS ARE CLEAN
 ```
 
 Otherwise, the output will be a single line with the statement:
 
 ```
-   THESE WINDOWS ARE BROKEN
-
+THESE WINDOWS ARE BROKEN
 ```
 
 **Sample Input**
@@ -113,12 +110,12 @@ THESE WINDOWS ARE BROKEN
 
 不看题目看例子也可以看懂题目的意思了~
 
-> 在[图论](https://zh.wikipedia.org/wiki/%E5%9B%BE%E8%AE%BA)中，由一个[有向无环图](https://zh.wikipedia.org/wiki/%E6%9C%89%E5%90%91%E6%97%A0%E7%8E%AF%E5%9B%BE)的顶点组成的序列，当且仅当满足下列条件时，称为该[图](https://zh.wikipedia.org/wiki/%E5%9B%BE)的一个**拓扑排序**（英语：Topological sorting）。
+> 在图论中，由一个有向无环图的顶点组成的序列，当且仅当满足下列条件时，称为该图的一个**拓扑排序**（英语：Topological sorting）。
 >
 > 1. 每个顶点出现且只出现一次；
-> 2. 若A在序列中排在B的前面，则在图中不存在从B到A的[路径](https://zh.wikipedia.org/wiki/%E8%B7%AF%E5%BE%84_(%E5%9B%BE%E8%AE%BA))。
+> 2. 若A在序列中排在B的前面，则在图中不存在从B到A的路径。
 >
-> 也可以定义为：拓扑排序是对有向无环图的顶点的一种排序，它使得如果存在一条从顶点A到顶点B的路径，那么在排序中B出现在A的后面[[1\]](https://zh.wikipedia.org/wiki/%E6%8B%93%E6%92%B2%E6%8E%92%E5%BA%8F#cite_note-book-1)。
+> 也可以定义为：拓扑排序是对有向无环图的顶点的一种排序，它使得如果存在一条从顶点A到顶点B的路径，那么在排序中B出现在A的后面。
 
 进行`拓扑排序`，有以下步骤：
 
