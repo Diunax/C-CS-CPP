@@ -27,7 +27,7 @@ void buildtree(int i, int a, int b) {
 	buildtree(i * 2 + 1, (a + b) / 2, b);
 }
 
-// ²åÈë 0 0 4 4
+// ²åÈë 1 0 4 4
 void insert(int i, int a, int b, int color) {
 	int mid = (Tree[i].ld + Tree[i].rd) / 2;
 
