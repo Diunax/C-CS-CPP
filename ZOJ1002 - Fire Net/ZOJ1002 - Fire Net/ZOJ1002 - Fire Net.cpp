@@ -3,83 +3,73 @@
 
 #include "stdafx.h"
 #include <iostream>
-#include <cstdio>  
-#include <cstring>  
-const int maxn = 7;
-char mm[maxn][maxn];
-int vis[maxn][maxn];				// 有无碉堡
-int k, maxx;
+using namespace std;
 int n;
+int G[4][4];
+int len[32][4];
 
-// 判断(x, y)处可不可以放碉堡
-bool judge(int x, int y) {			
-	for (int i = x; i >= 0; i--) {
-		if (vis[i][y] == 1) {
-			return false;
-		}
-		if (mm[i][y] == 'X'){
-			break;
-		}
-	}
-	for (int i = x; i < n; i++) {
-		if (vis[i][y] == 1) {
-			return false;
-		}
-		if (mm[i][y] == 'X') {
-			break;
-		}
-	}
-	for (int j = y; j >= 0; j--) {
-		if (vis[x][j] == 1) {
-			return false;
-		}
-		if (mm[x][j] == 'X') {
-			break;
-		}
-	}
-	for (int j = y; j < n; j++) {
-		if (vis[x][j] == 1) {
-			return false;
-		}
-		if (mm[x][j] == 'X') {
-			break;
-		}
-	}
-	return true;
-}
-
-// 深度遍历
-void DFS()
-{
-	if (k > maxx)
-		maxx = k;
-	for (int i = 0; i < n; i++)
-	{
-		for (int j = 0; j < n; j++)
-		{
-			if (!vis[i][j] && judge(i, j) && mm[i][j] == '.')
-			{
-				vis[i][j] = 1;
-				k++;				// 放置碉堡，再进行深度遍历，找出此时的最大碉堡数
-				DFS();
-				vis[i][j] = 0;
-				k--;
+int main() {
+	int row, col;
+	while (cin >> n && n) {
+		int k = 0;
+		int num = 1;
+		char temp;
+		for (int i = 0; i < n; i++) {
+			for (int j = 0; j < n; j++) {
+				cin >> temp;
+				if (temp != 'X') {
+					G[i][j] = num;
+					num++;
+				}
+				else {
+					G[i][j] = 0;
+				}
 			}
 		}
-	}
-}
-int main()
-{
-	while (scanf("%d", &n) && n)
-	{
-		k = maxx = 0;
-		memset(vis, 0, sizeof(vis));
-		for (int i = 0; i < n; i++)
-		{
-			scanf("%s", mm[i]);
+		// 横向	形成row个点
+		for (int i = 0; i < n; i++) {
+			int u = 0;
+			bool stone = true;
+			for (int j = 0; j < n; j++) {
+				if (G[i][j] != 0) {
+					stone = false;
+					len[k][u] = G[i][j];
+					u++;
+				}
+				else {
+					if (stone)	continue;
+					else {
+						stone = true;
+						k++;
+						u = 0;
+					}
+				}
+			}
+			if (!stone)	k++;
 		}
-		DFS();
-		printf("%d\n", maxx);
+		row = k;
+		// 纵向	形成col个点
+		for (int j = 0; j < n; j++) {
+			int u = 0;
+			bool stone = true;
+			for (int i = 0; i < n; i++) {
+				if (G[i][j] != 0) {
+					stone = false;
+					len[k][u] = G[i][j];
+					u++;
+				}
+				else {
+					if (stone)	continue;
+					else {
+						stone = true;
+						k++;
+						u = 0;
+					}
+				}
+			}
+			if (!stone)	k++;
+		}
+		col = k - row;
 	}
 	return 0;
 }
